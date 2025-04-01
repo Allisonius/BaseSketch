@@ -15,17 +15,23 @@
 # Usage
 **BaseModelInference:** The main class for `BaseSketch` that launches the command line tool.
 * The tool takes the following command line arguements:
- - `arg 0` the name of the file containing the AUnit test suite
- - `arg 1` is the path to the `arg 0` file.
+  - `arg 0` the name of the file containing the AUnit test suite
+  - `arg 1` is the path to the `arg 0` file.
 * During execution, users will respond to the validity of scenarios displayed in pop-up VizGUI windows with either a `Y` for "yes, this scenario should be allowed" or `N` for "no, this scenario should be prevented"
   
 **BaseModelInference:** The main class for the experiments behind Table 4.
- - The tool takes the following command line arguements: `arg 0` the name of the file containing the AUnit test suite, `arg 1` is the path to the `arg 0` file, `arg 2` the path where results should be stored.
- - The user does not interact with this execution. All scenarios are automatically labeled as valid or invalid using the associated oracle model.
+* The tool takes the following command line arguements:
+  - `arg 0` the name of the file containing the AUnit test suite
+  - `arg 1` is the path to the `arg 0` file
+  - `arg 2` the path where results should be stored.
+* The user does not interact with this execution. All scenarios are automatically labeled as valid or invalid using the associated oracle model.
   
 **Experiments_OverheadForTestSuites:** The main class for the experiments behind Table 3 and 5.
- - The tool takes the following command line arguements: `arg 0` the name of the file containing the AUnit test suite, `arg 1` is the path to the `arg 0` file, `arg 2` the path where results should be stored.
- - The user does not interact with this execution. All scenarios are automatically labeled as valid or invalid using the associated oracle model.
+* The tool takes the following command line arguements:
+  - `arg 0` the name of the file containing the AUnit test suite
+  - `arg 1` is the path to the `arg 0` file
+  - `arg 2` the path where results should be stored.
+* The user does not interact with this execution. All scenarios are automatically labeled as valid or invalid using the associated oracle model.
 
 # Content
 This repo contains the following:
